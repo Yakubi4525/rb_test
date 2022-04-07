@@ -62,7 +62,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.only(
-                                right: 16, left: 16, bottom: 1, top: 20),
+                                right: 16, left: 16,  top: 20),
                             child: MainTextField(
                               height: 44,
                               onChanged: () {},
@@ -74,7 +74,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(top: 30),
+                            padding: const EdgeInsets.only(top: 30, bottom: 30),
                             child: Column(
                               children: List.generate(
                                 state.notifications.length,
