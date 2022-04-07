@@ -22,7 +22,7 @@ class NotificationBloc extends Bloc<NotificationEvent, NotificationState> {
             isSubmitting: true,
           ),
         );
-        await Future.delayed(Duration(seconds: 2));
+        await Future.delayed(const Duration(seconds: 2));
         await event.map(
           started: (e) async {
             state.copyWith(isSubmitting: true);

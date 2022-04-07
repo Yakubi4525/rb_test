@@ -57,7 +57,7 @@ class MainTextField extends StatelessWidget {
             color: Colors.grey.withOpacity(0.1),
             spreadRadius: 5,
             blurRadius: 5,
-            offset: Offset(3, 3), // changes position of shadow
+            offset: const Offset(3, 3), // changes position of shadow
           ),
         ],
         borderRadius: const BorderRadius.all(

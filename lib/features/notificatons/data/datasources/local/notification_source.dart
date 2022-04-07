@@ -1,5 +1,4 @@
 
-import 'package:rb_digital_test/features/notificatons/data/models/api_notification_model.dart';
 import 'package:rb_digital_test/features/notificatons/domain/enteties/notification_model.dart';
 
 abstract class NotificationSourceRepo {
